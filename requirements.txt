@@ -1,0 +1,20 @@
+# Core CLI and configuration
+# click and typer versions are aligned to avoid compaitibility issues
+typer==0.12.5
+click==8.1.7
+rich==13.9.4
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# Logging
+loguru==0.7.3
+
+# Graph database
+neo4j==5.27.0
+
+# Testing
+pytest==8.3.4
+
+ruff>=0.5,<1.0
+black>=24.0,<26.0
